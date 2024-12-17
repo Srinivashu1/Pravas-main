@@ -1,0 +1,743 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-link {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.nav-item .nav-link:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+.fourcolumns p {
+  font-weight: 650;
+  color: white;
+}
+.fourcolumns i {
+  color: white;
+  font-size: x-large;
+}
+.navbar-brand {
+  height: 70px;
+}
+
+.small-img img {
+  height: 100px;
+  width: 150px;
+  margin-top: 2px;
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+.small-img img:hover {
+  opacity: 1;
+}
+.small-img {
+  max-width: auto;
+  overflow-x: scroll;
+}
+.big-img img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+.images img {
+  height: 50px;
+  width: 40px;
+}
+.bg-grey {
+  background-color: #ccd6e9;
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.class img:active {
+  cursor: grabbing;
+}
+@media (max-width: 567px) {
+  #offcanvasRight {
+    width: 300px; /* Full width on smaller screens */
+  }
+  #offcanvasRight li {
+    line-height: 2px;
+  }
+}
+
+/* 
+ */
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  .home,
+  .services {
+    color: red;
+  }
+}
+
+.hole-image {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background-image: url(https://www.chennaiconventioncentre.com/wp-content/uploads/2018/11/bg.png?id=1524) !important;
+
+  background-size: cover !important;
+}
+
+.wid {
+  width: 100%;
+}
+
+.para p {
+  margin-top: 25px;
+  line-height: 30px;
+  font-size: 18px;
+  margin: 25px 0 15px;
+  font-weight: 540;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.headcon {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+/* gallery css */
+.part1 img {
+  height: 210px;
+  width: 100%;
+}
+.part2 img {
+  height: 210px;
+  width: 100%;
+}
+.gallery2,
+.gallery3 {
+  display: none;
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  display: block;
+  width: 80%;
+  max-width: 750px;
+  height: 90%;
+  margin: 0 auto;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close button {
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  border: none;
+}
+.prev img {
+  height: 40px;
+  width: 40px;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  border: none;
+}
+.next img {
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+.close {
+  color: white;
+  opacity: 1;
+}
+.div4 img {
+  cursor: pointer;
+}
+
+.icon-img {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.bor {
+  height: 205px;
+
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.icon-img:hover {
+  width: 75px;
+  height: 75px;
+}
+
+.imgs {
+  height: 100px;
+}
+
+.im {
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .h {
+    border-bottom: 1px solid black;
+  }
+
+  .navbar-brand {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 80px;
+  }
+
+  .bor1 {
+    border-right: 1px solid black;
+  }
+
+  .bor2 {
+    border-right: 1px solid black;
+  }
+
+  .bor4 {
+    border-right: 1px solid black;
+  }
+
+  .bor5 {
+    border-right: 1px solid black;
+  }
+
+  .gal {
+    border-bottom: 1px solid black;
+  }
+}
+
+.vertical-line {
+  border-left: 3px solid red; /* Red vertical line */
+  height: 150px; /* Set the height of the vertical line */
+}
+
+.wrapper i {
+  top: 50%;
+  height: 100%;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.23); */
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child {
+  left: -22px;
+  z-index: 2;
+}
+.wrapper i:last-child {
+  right: -22px;
+}
+.pre,
+.next {
+  background-color: black;
+  padding: 20px;
+  border-radius: 50%;
+}
+.wrapper .class .carousell {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.wrapper .class .carousell .card .img {
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+.wrapper .class .carousell .card .img:hover {
+  opacity: 1;
+}
+.btn-close {
+  color: white;
+}
+.class .carousell::-webkit-scrollbar {
+  display: none;
+}
+.class .carousell.no-transition {
+  scroll-behavior: auto;
+}
+.class .carousell.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.class .carousell.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.class .carousell :where(.card, .img) {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.class .carousell .card {
+  scroll-snap-align: start;
+  height: 200px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+/* .carousel .card .img {
+    background: #8B53FF;
+    height: 148px;
+    width: 148px;
+    border-radius: 50%;
+  } */
+.card .img img {
+  width: 180px;
+  height: 140px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+.class .carousell .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.class .carousell .card span {
+  color: #6a6d78;
+  font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .class .carousell {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .class .carousell {
+    grid-auto-columns: 100%;
+  }
+}
+
+.posR {
+  position: relative;
+}
+.card {
+  border: none;
+  background-color: gray;
+}
+.offcanvas-body li a {
+  font-size: 15px;
+
+  margin-top: 15px;
+}
+.t {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.navbar-toggler {
+  width: 44px;
+  height: 40px;
+  margin-right: 5px;
+  font-size: 19px;
+}
+.head {
+  font-size: 16px;
+}
+@media (min-width: 976px) {
+  .contact {
+    padding-right: 170px;
+  }
+  .contact a {
+    margin-right: 40px;
+  }
+  .icon img {
+    margin-left: 110px;
+  }
+  .social i {
+    margin-right: 10px;
+  }
+  .social {
+    padding-right: 100px;
+  }
+ 
+}
+
+/* gallery css */
+.part1 img {
+  height: 210px;
+  width: 100%;
+}
+.part2 img {
+  height: 210px;
+  width: 100%;
+}
+.gallery2,
+.gallery3 {
+  display: none;
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  display: block;
+  width: 80%;
+  max-width: 750px;
+  height: 90%;
+  margin: 0 auto;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close button {
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  border: none;
+}
+.prev img {
+  height: 40px;
+  width: 40px;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  border: none;
+}
+.next img {
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+.close {
+  color: white;
+  opacity: 1;
+}
+.div4 img {
+  cursor: pointer;
+}
+
+
+
+/* footer */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section {
+  color:white;
+  background: #151414;
+  position: relative;
+}
+
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 10px;
+
+}
+
+.footer-logo img {
+  max-width: 200px;
+  height: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.footer-text p {
+  /* text-align: justify; */
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px;
+  text-indent: 60px; 
+}
+
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  /* float: left; */
+  width: 50%;
+  
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  margin: 5px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form textarea{
+  width: 100%;
+  background: #2E2E2E;
+  padding: 14px 28px;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+  margin: 5px;
+}
+
+.subscribe-form button {
+  
+  background: #ff5e14;
+  border: 1px solid #ff5e14;
+  top: 0;
+  margin: 5px;
+  padding: 4px 6px 7px 6px;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  transition: 1s;
+}
+.subscribe-form button:hover{
+  background-color: white;
+  border: 1px solid #ff5e14;
+  color: black;
+
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.copyright-text p a {
+  color: #ff5e14;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  color: #ff5e14;
+  transform: translate(0, -10px);
+
+}
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.social i{
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.contact a:hover,.social i:hover{
+  transition: .6s; 
+}
+
+.social i.fa-facebook:hover{color: #3b5999; background-color: #fff;}
+.social i.fa-twitter:hover{color: #007bb6; background-color: #fff;}
+.social i.fa-instagram:hover{color: #E4405F; background-color: #fff;}
+.social i.fa-pinterest:hover{color: #E60023; background-color: #fff;}
+
+
